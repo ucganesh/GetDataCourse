@@ -1,9 +1,5 @@
 This codebook describes the variables present in the associated tidy dataset.
-============================
-Introduction
-=============================
-Body Acceleration
-Gravity Acceleration
+
 
 		Column					Type				Units							Description
 ========================	=================	=============	=====================================================
