@@ -1,0 +1,145 @@
+This codebook describes the variables present in the associated tidy dataset.
+============================
+Introduction
+=============================
+Body Acceleration
+Gravity Acceleration
+
+		Column					Type				Units							Description
+========================	=================	=============	=====================================================
+SubjectId						Integer				-			Used to identify Subject's measurements, range is 1 to 30									 
+
+ActivityName 					String				-			Measurements were taken while subject was performing these Activities: WALKING, 
+																WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING	
+
+TimeBodyAccMeanX 				Numeric			gravity (g)		Mean value of Time based Body Acceleration observations in X Axis
+
+TimeBodyAccMeanY 				Numeric			gravity (g)		Mean value of Time based Body Acceleration observations in Y Axis
+
+TimeBodyAccMeanZ 				Numeric			gravity (g)		Mean value of Time based Body Acceleration observations in Z Axis
+
+TimeBodyAccStdX 				Numeric			gravity (g)		Standard deviation of Time based Body Acceleration observations in X Axis
+
+TimeBodyAccStdY					Numeric			gravity (g)		Standard deviation of Time based Body Acceleration observations in Y Axis
+
+TimeBodyAccStdZ 				Numeric			gravity (g)		Standard deviation of Time based Body Acceleration observations in Z Axis
+
+TimeGravityAccMeanX 			Numeric			gravity (g)		Mean value of Time based Gravity Acceleration observations in X Axis
+
+TimeGravityAccMeanY 			Numeric			gravity (g)		Mean value of Time based Gravity Acceleration observations in Y Axis
+
+TimeGravityAccMeanZ 			Numeric			gravity (g)		Mean value of Time based Gravity Acceleration observations in Z Axis
+
+TimeGravityAccStdX 				Numeric			gravity (g)		Standard Deviation of Time based Gravity Acceleration observations in X Axis
+
+TimeGravityAccStdY 				Numeric			gravity (g)		Standard Deviation of Time based Gravity Acceleration observations in Y Axis
+
+TimeGravityAccStdZ 				Numeric			gravity (g)		Standard Deviation of Time based Gravity Acceleration observations in Z Axis
+
+TimeBodyAccJerkMeanX 			Numeric			gravity (g)		Mean value of Time based Jerk Signals during Body Acceleration in X Axis
+
+TimeBodyAccJerkMeanY 			Numeric			gravity (g)		Mean value of Time based Jerk Signals during Body Acceleration in Y Axis
+
+TimeBodyAccJerkMeanZ 			Numeric			gravity (g)		Mean value of Time based Jerk Signals during Body Acceleration in Z Axis
+
+TimeBodyAccJerkStdX 			Numeric			gravity (g)		Standard Deviation of Time based Jerk Signals during Body Acceleration in X Axis
+
+TimeBodyAccJerkStdY 			Numeric			gravity (g)		Standard Deviation of Time based Jerk Signals during Body Acceleration in Y Axis
+
+TimeBodyAccJerkStdZ 			Numeric			gravity (g)		Standard Deviation of Time based Jerk Signals during Body Acceleration in Z Axis
+
+TimeBodyGyroMeanX 				Numeric			radians/second	Mean value of Time based Body Angular Velocity in X Axis
+
+TimeBodyGyroMeanY 				Numeric			radians/second	Mean value of Time based Body Angular Velocity in Y Axis
+
+TimeBodyGyroMeanZ 				Numeric			radians/second	Mean value of Time based Body Angular Velocity in Z Axis
+
+TimeBodyGyroStdX 				Numeric			radians/second	Standard Deviation of Time based Body Angular Velocity in X Axis
+
+TimeBodyGyroStdY 				Numeric			radians/second	Standard Deviation of Time based Body Angular Velocity in Y Axis
+
+TimeBodyGyroStdZ 				Numeric			radians/second	Standard Deviation of Time based Body Angular Velocity in Z Axis
+
+TimeBodyGyroJerkMeanX 			Numeric			radians/second	Mean value of Time based Jerk Signals during Body Angular Velocity in X Axis
+
+TimeBodyGyroJerkMeanY 			Numeric			radians/second	Mean value of Time based Jerk Signals during Body Angular Velocity in Y Axis
+
+TimeBodyGyroJerkMeanZ 			Numeric			radians/second	Mean value of Time based Jerk Signals during Body Angular Velocity in Z Axis
+
+TimeBodyGyroJerkStdX 			Numeric			radians/second	Standard Deviation of Time based Jerk Signals during Body Angular Velocity in X Axis
+
+TimeBodyGyroJerkStdY 			Numeric			radians/second	Standard Deviation of Time based Jerk Signals during Body Angular Velocity in Y Axis
+
+TimeBodyGyroJerkStdZ 			Numeric			radians/second	Standard Deviation of Time based Jerk Signals during Body Angular Velocity in Z Axis
+
+TimeBodyAccMagMean 				Numeric			gravity (g)		Mean value of Time based Body Acceleration Magnitude
+
+TimeBodyAccMagStd 				Numeric			gravity (g)		Standard Deviation of Time based Body Acceleration Magnitude
+
+TimeGravityAccMagMean 			Numeric			gravity (g)		Mean value of Time based Gravity Acceleration Magnitude
+
+TimeGravityAccMagStd 			Numeric			gravity (g)		Standard Deviation of Time based Gravity Acceleration Magnitude
+
+TimeBodyAccJerkMagMean 			Numeric			gravity (g)		Mean value of Time based magnitude of Jerk signals during Body Acceleration
+
+TimeBodyAccJerkMagStd 			Numeric			gravity (g)		Standard Deviation of Time based magnitude of Jerk signals during Body Acceleration
+
+TimeBodyGyroMagMean 			Numeric			radians/second	Mean value of Time based Body Angular Velocity Magnitude
+
+TimeBodyGyroMagStd 				Numeric			radians/second	Standard Deviation of Time based Body Angular Velocity Magnitude
+
+TimeBodyGyroJerkMagMean 		Numeric			radians/second	Mean value of Time based Body Angular Velocity, Jerk signal Magnitude
+
+TimeBodyGyroJerkMagStd 			Numeric			radians/second	Standard Deviation of Time based Body Angular Velocity, Jerk signal Magnitude
+
+FrequencyBodyAccMeanX 			Numeric			gravity (g)		Mean value of Frequency based Body Acceleration observations in X Axis
+
+FrequencyBodyAccMeanY 			Numeric			gravity (g)		Mean value of Frequency based Body Acceleration observations in Y Axis
+
+FrequencyBodyAccMeanZ 			Numeric			gravity (g)		Mean value of Frequency based Body Acceleration observations in Z Axis
+
+FrequencyBodyAccStdX 			Numeric			gravity (g)		Standard deviation of Frequency based Body Acceleration observations in X Axis
+
+FrequencyBodyAccStdY			Numeric			gravity (g)		Standard deviation of Frequency based Body Acceleration observations in Y Axis
+
+FrequencyBodyAccStdZ 			Numeric			gravity (g)		Standard deviation of Frequency based Body Acceleration observations in Z Axis
+ 
+FrequencyBodyAccJerkMeanX 		Numeric			gravity (g)		Mean value of Frequency based Jerk Signals during Body Acceleration in X Axis
+
+FrequencyBodyAccJerkMeanY 		Numeric			gravity (g)		Mean value of Frequency based Jerk Signals during Body Acceleration in Y Axis
+
+FrequencyBodyAccJerkMeanZ		Numeric			gravity (g)		Mean value of Frequency based Jerk Signals during Body Acceleration in Z Axis
+
+FrequencyBodyAccJerkStdX 		Numeric			gravity (g)		Standard Deviation of Frequency based Jerk Signals during Body Acceleration in X Axis
+
+FrequencyBodyAccJerkStdY 		Numeric			gravity (g)		Standard Deviation of Frequency based Jerk Signals during Body Acceleration in Y Axis
+
+FrequencyBodyAccJerkStdZ 		Numeric			gravity (g)		Standard Deviation of Frequency based Jerk Signals during Body Acceleration in Z Axis 
+
+FrequencyBodyGyroMeanX 			Numeric			radians/second	Mean value of Frequency based Body Angular Velocity in X Axis
+
+FrequencyBodyGyroMeanY 			Numeric			radians/second	Mean value of Frequency based Body Angular Velocity in Y Axis
+
+FrequencyBodyGyroMeanZ 			Numeric			radians/second	Mean value of Frequency based Body Angular Velocity in Z Axis
+
+FrequencyBodyGyroStdX 			Numeric			radians/second	Standard Deviation of Frequency based Body Angular Velocity in X Axis
+
+FrequencyBodyGyroStdY			Numeric			radians/second	Standard Deviation of Frequency based Body Angular Velocity in Y Axis
+
+FrequencyBodyGyroStdZ 			Numeric			radians/second	Standard Deviation of Frequency based Body Angular Velocity in Z Axis
+
+FrequencyBodyAccMagMean 		Numeric			gravity (g)		Mean value of Frequency based Body Acceleration Magnitude
+
+FrequencyBodyAccMagStd 			Numeric			gravity (g)		Standard Deviation of Frequency based Body Acceleration Magnitude
+
+FrequencyBodyAccJerkMagMean 	Numeric			gravity (g)		Mean value of Frequency based Body Acceleration Jerk signals Magnitude
+
+FrequencyBodyAccJerkMagStd 		Numeric			gravity (g)		Standard Deviation of Frequency based Body Acceleration Jerk signals Magnitude
+
+FrequencyBodyGyroMagMean 		Numeric			radians/second	Mean value of Frequency based Body Angular Velocity Magnitude
+
+FrequencyBodyGyroMagStd 		Numeric			radians/second	Standard Deviation of Frequency based Body Angular Velocity Magnitude
+
+FrequencyBodyGyroJerkMagMean 	Numeric			radians/second	Mean value of Frequency based Body Angular Velocity Jerk signal Magnitude
+
+FrequencyBodyGyroJerkMagStd 	Numeric			radians/second	Standard Deviation of Frequency based Body Angular Velocity Jerk signal Magnitude
